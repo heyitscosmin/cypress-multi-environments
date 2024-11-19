@@ -28,7 +28,7 @@ export default stagingConfig;
 ```
 ### Production Configuration (`/cypress/env/cypress.prod.ts`)
 ```typescript
-const stagingConfig = {
+const prodConfig = {
   env: {
     accounts: {
       admin: {
@@ -42,7 +42,7 @@ const stagingConfig = {
     },
   },
 };
-export default stagingConfig;
+export default prodConfig;
 ```
 ### Dynamic Configuration Loader
 (`/cypress/cypress.config.ts`)
